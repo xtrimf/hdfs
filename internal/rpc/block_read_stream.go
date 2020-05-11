@@ -8,8 +8,8 @@ import (
 	"io"
 	"math"
 
-	hdfs "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
+	hdfs "github.com/xtrimf/hdfs/v2/internal/protocol/hadoop_hdfs"
 )
 
 var errInvalidChecksum = errors.New("invalid checksum")
